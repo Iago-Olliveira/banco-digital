@@ -39,13 +39,15 @@ Esse é um modelo de projeto piloto destinado para a aplicação de um sistema b
 
 ---
 
-## 🎨 Layout
+## 🎨 Code Snaps
 
-O layout da aplicação está disponível no Figma:
+- [x] Arquivo: rotas.js
 
-<a href="https://www.figma.com/files/project/77994470/%F0%9F%93%84-Templates-para-Projetos%2C-Eventos-e-Cursos?fuid=1110596132085818429">
-  <img alt="Made by Cubos Academy" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a>
+![rotas](https://github.com/Iago-Olliveira/banco-digital/assets/104806887/f8c57c4c-8483-43a8-948e-4b06c7f6551a)
+
+- [x] Arquivo: extrato.js
+
+![extrato](https://github.com/Iago-Olliveira/banco-digital/assets/104806887/37c7dcf1-9299-48ac-8638-80a9545a13ce)
 
 ---
 
