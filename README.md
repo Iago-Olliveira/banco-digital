@@ -1,80 +1,41 @@
-# academy-template-readme-projects
-![](https://i.imgur.com/xG74tOh.png)
-
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/cubos-academy/academy-template-readme-projects?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/cubos-academy/academy-template-readme-projects">
-  
-  <a href="https://github.com/cubos-academy/academy-template-readme-projects/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cubos-academy/academy-template-readme-projects">
-  </a>
-  
-  <!-- <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> -->
-  
-   <a href="https://cubos.academy/">
-    <img alt="Feito pela Cubos Academy" src="https://img.shields.io/badge/feito-por%20Cubos%20Academy-D818A5">
-   </a>
-   
-   <a href="https://github.com/cubos-academy/academy-template-readme-projects/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/cubos-academy/academy-template-readme-projects?style=social">
-  </a>
-  
-   <a href="https://www.twitter.com/cubosacademy/">
-    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fcubos-academy%2Facademy-template-readme-projects">
-  </a>
-  
- 
-</p>
-<h1 align="center">
-    <img alt="Cubos Academy" title="#CubosAcademy" src="assets/Capa GItHub.png" />
-</h1>
+# API Padrão para Banco Digital
 
 <h4 align="center"> 
-	🚧 Nome do Projeto 🚧
+	🚧 Banco Digital 🚧
 </h4>
 
 <p align="center">
-	<img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green">
 	<img alt="Status Concluído" src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-brightgreen">
 </p>
 
-<p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-layout">Layout</a> • 
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-contribuidores">Contribuidores</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
-</p>
-
-
 ## 💻 Sobre o projeto
 
-📄 Academy Template README Projects - é o modelo oficial de README de projetos da Cubos Academy.
+Projeto desenvolvido durante a **[DDST16 | Módulo 02]** de [ [Desenvolvimento de Software](https://cubos.academy/cursos/desenvolvimento-de-software-v2)] oferecida pela [Cubos Academy](https://cubos.academy/).
 
-
-Projeto desenvolvido durante a **[Turma | Evento]** de [ [Desenvolvimento de Software](https://cubos.academy/cursos/desenvolvimento-de-software-v2) | [On Demand](https://cubos.academy/cubosondemand) ] oferecida pela [Cubos Academy](https://cubos.academy/).
-
-A Cubos Academy é uma escola com cursos de tecnologia para todos os perfis, do iniciante ao avançado.
+Esse é um modelo de projeto piloto destinado para a aplicação de um sistema bancário simples. Contém operações para cadastro de usuários, depósitos, saques, transferências, além de poder consultar saldos e emitir extrato bancário da conta do usuário.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- [x] Funcionalidade 1:
-  - [x] Entidade 1
-  - [x] Entidade 2
-  - [x] Entidade 3
-  - [x] Entidade 4: 
-    - Item 1
-    - Item 2
-
-- [x] Funcionalidade 1:
-  - [x] Entidade 1
-  - [x] Entidade 2
+- [x] Listar conta bancária:
+  - [x] Endpoint GET: /contas?senha_banco=Cubos123Bank
+- [x] Cadastrar conta bancária:
+  - [x] Endpoint POST: /contas
+- [x] Atualizar os dados do usuário da conta bancária:
+  - [x] Endpoint PUT: /contas/:numeroConta/usuario
+- [x] Excluir conta bancária:
+  - [x] Endpoint DELETE: /contas/:numeroConta
+- [x] Depositar:
+  - [x] Endpoint POST: /transacoes/depositar
+- [x] Sacar:
+  - [x] Endpoint POST: /transacoes/sacar
+- [x] Transferir:
+  - [x] Endpoint POST: /transacoes/transferir
+- [x] Consultar Saldo:
+  - [x] Endpoint GET: /contas/saldo?numero_conta=123&senha=123
+- [x] Emitir Extrato da conta bancária:
+  - [x] Endpoint GET: /contas/extrato?numero_conta=123&senha=123
 
 ---
 
@@ -85,23 +46,6 @@ O layout da aplicação está disponível no Figma:
 <a href="https://www.figma.com/files/project/77994470/%F0%9F%93%84-Templates-para-Projetos%2C-Eventos-e-Cursos?fuid=1110596132085818429">
   <img alt="Made by Cubos Academy" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
-
-
-### Mobile
-
-<p align="center">
-  <img alt="Nome do Projeto" title="Nome do Projeto" src="assets/LightModeMobile.png" width="200px">
-
-  <img alt="Nome do Projeto" title="Nome do Projeto" src="assets/DarkModeMobile.png" width="200px">
-</p>
-
-### Web
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Nome do Projeto" title="Nome do Projeto" src="assets/LightMode.png" width="400px">
-
-  <img alt="Nome do Projeto" title="Nome do Projeto" src="assets/DarkMode.png" width="400px">
-</p>
 
 ---
 
