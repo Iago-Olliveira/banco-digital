@@ -43,7 +43,8 @@ Esse é um modelo de projeto piloto destinado para a aplicação de um sistema b
 
 - [x] Arquivo: rotas.js
 
-![rotas](https://github.com/Iago-Olliveira/banco-digital/assets/104806887/f8c57c4c-8483-43a8-948e-4b06c7f6551a)
+![rotas](![rotas](https://github.com/Iago-Olliveira/banco-digital/assets/104806887/c02b8674-1a71-4e38-b1fc-c1550ac04069)
+)
 
 - [x] Arquivo: extrato.js
 
